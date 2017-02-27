@@ -749,7 +749,7 @@ def settings_post(db):
 def update():
     """Handles updating"""
     subprocess.Popen([os.path.dirname(os.path.realpath(__file__)) +
-                      "/updater.sh"])
+                      "/updater.sh"])  # TODO
     redirect("/settings")
 
 
